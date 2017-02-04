@@ -1,13 +1,13 @@
 {
-  "name": "inv-cli",
+  "name": "min-cli",
   "version": "0.0.0",
   "description": "Template for js repos",
-  "bin": { "inv": "inv.sh" },
-  "main": "inv.sh",
+  "bin": { "min": "min.sh" },
+  "main": "min.sh",
   "scripts": {
-    "postinstall":"mkdir -p $HOME/.inv-cli && cp -f ./templates/* $HOME/.inv-cli",
+    "postinstall":"mkdir -p $HOME/.min-cli && cp -f ./templates/* $HOME/.min-cli",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "nichoth",
   "license": "ISC"
 }
