@@ -1,9 +1,9 @@
 if [ -z "$1" ]
     then
-        echo "Usage: inv <dir>"
+        echo "Usage: min <dir>"
         exit 1
 fi
-DIR=$HOME/.inv-cli
+DIR=$HOME/.min-cli
 DEST=$1
 mkdir -p $DEST && \
 cd $DEST && \
