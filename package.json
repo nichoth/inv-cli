@@ -1,11 +1,13 @@
 {
   "name": "min-cli",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Template for js repos",
-  "bin": { "min": "min.sh" },
+  "bin": {
+    "min": "min.sh"
+  },
   "main": "min.sh",
   "scripts": {
-    "postinstall":"mkdir -p $HOME/.min-cli && cp -f ./templates/* $HOME/.min-cli",
+    "postinstall": "mkdir -p $HOME/.min-cli && cp -f ./templates/* $HOME/.min-cli",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "nichoth",
